@@ -11,21 +11,32 @@
 
 1. Renomear o arquivo .env-exemple para .env
 
-2. Configurar o arquivo .env
+2. Configurar o arquivo .env de sua preferencia, com nome do banco, usuario e senha
     ```shell
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=''
-    DB_USERNAME=''
-    DB_PASSWORD=''
+    DB_DATABASE=
+    DB_USERNAME=
+    DB_PASSWORD=
     ```
+3. Criar a tabela do banco
+   ```shell
+   nome da tabela: address
+   colunas:
+   idAddress -> id,
+   cep -> varchar,
+   logradouro -> varchar,
+   bairro -> varchar,
+   cidade -> varchar,
+   uf -> varchar
+   ```
 
-3. Instalar os pacotes composer
+5. Instalar os pacotes composer
    ```shell
    composer install
    ```
-4. Iniciar o projeto
+6. Iniciar o projeto
     ```shell
    php artisan serve
    ```
