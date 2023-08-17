@@ -12,13 +12,14 @@
 1. Renomear o arquivo .env-exemple para .env
 
 2. Configurar o arquivo .env
-
+    ```shell
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=''
     DB_USERNAME=''
     DB_PASSWORD=''
+    ```
 
 3. Instalar os pacotes composer
    ```shell
