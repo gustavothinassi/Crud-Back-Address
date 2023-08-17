@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Instalação
+
+1. Renomear o arquivo .env-exemple para .env
+
+2. Configurar o arquivo .env
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=''
+    DB_USERNAME=''
+    DB_PASSWORD=''
+
+3. Instalar os pacotes composer
+   ```shell
+   composer install
+   ```
+4. Iniciar o projeto
+    ```shell
+   php artisan serve
+   ```
+   
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
